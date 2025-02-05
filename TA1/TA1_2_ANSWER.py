@@ -1,0 +1,5 @@
+string = input("Enter any string: ")
+sum_digit = sum(int(x) for x in string if x.isdigit())
+print("=============================")
+print("Sum of digits = ", sum_digit)
+print("=============================")
